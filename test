@@ -1,0 +1,29 @@
+public class Book {
+int numPages;
+int currentPage;
+
+  public Book (int x){
+    numPages = x;
+    currentPage = 1;
+  }
+
+  public int getNumPages(){
+    return numPages;
+  }
+  
+  public void nextPage()
+    if(currentPage < numPages){
+      currentPage++
+       }
+    }
+    
+    
+    //This should go into the BookTest method
+  public static void main(String [] args){
+    Book book = new book(3);
+    book.nextPage();
+    System.out.println(book.getCurrentPage());
+    //should print out 2, 3, 3
+  }
+
+}
