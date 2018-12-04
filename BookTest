@@ -1,0 +1,9 @@
+public class BookTest{
+  public static void main(String [] args){
+    Book book = new book(3);
+    book.nextPage();
+    System.out.println(book.getCurrentPage());
+    //should print out 2, 3, 3
+  }
+
+}
